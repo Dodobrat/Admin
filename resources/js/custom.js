@@ -1,5 +1,3 @@
-global.Switchery = require('switchery');
-
 $(document).ready(function () {
     $(function () {
         $(".preloader").fadeOut();

@@ -1260,11 +1260,11 @@ table.focus-on {
     background-position: center bottom, center calc(100% - 1px);
     background-repeat: no-repeat;
     background-size: 0 2px, 100% 1px;
-    padding: 0;
+    padding: 0 10px;
     transition: background 0s ease-out 0s;
 }
 .form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
-    background-image: linear-gradient(@purple, @purple), linear-gradient(@border, @border);
+    background-image: linear-gradient(#f75b36, #f75b36), linear-gradient(@border, @border);
     border: 0 none;
     border-radius: 0;
     box-shadow: none;
@@ -1462,23 +1462,35 @@ table.focus-on {
 
 /* Login- register pages */
 .login-register{
-  background:url('../../public/img/login-register.jpg') no-repeat center center / cover !important;
+  background: rgb(111,118,137);
+  background: -moz-radial-gradient(circle, rgba(111,118,137,1) 0%, rgba(53,60,72,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(111,118,137,1) 0%, rgba(53,60,72,1) 100%);
+  background: radial-gradient(circle, rgba(111,118,137,1) 0%, rgba(53,60,72,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f7689",endColorstr="#353c48",GradientType=1);
+  //background:url('../../public/img/login-register.jpg') no-repeat center center / cover !important;
   height:100%;
   position:fixed;
 }
 .login-box{
   background:@white;
   width:400px;
-  margin:0 auto;
-  margin-top:10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   .footer{
     width:100%;
     left:0px;
     right:0px;
   }
-  .social {
-    display:block;
-    margin-bottom:30px;
+}
+.log-btn{
+  transition: 0.2s ease-in-out;
+  background-color: #F75B36;
+  color: @white;
+  &:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #e64a25;
   }
 }
 #recoverform{
@@ -1797,8 +1809,10 @@ table.focus-on {
         float:right;
         cursor:pointer;
         font-size:11px;
+        padding: 15px;
+        margin: -14px;
         &:hover{
-            color:@dark;
+          color:@white;
         }
     }
   }
