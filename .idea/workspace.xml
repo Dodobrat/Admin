@@ -2,118 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e18e293-8a78-4ee1-9682-cde67ccdeeef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/switches.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/less/icons/linea-icons/linea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/documentation.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/calendar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/add.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/default-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Simple-Line-Icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont-old.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-arrows-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-arrows-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-arrows-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-arrows-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-arrows-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-arrows-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-arrows-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-arrows-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-elaboration-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-elaboration-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-elaboration-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-elaboration-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-elaboration-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-elaboration-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-basic-elaboration-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-basic-elaboration-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-ecommerce-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-ecommerce-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-ecommerce-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-ecommerce-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-ecommerce-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-ecommerce-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-ecommerce-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-ecommerce-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-music-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-music-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-music-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-music-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-music-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-music-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-music-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-music-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-software-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-software-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-software-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-software-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-software-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-software-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-software-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-software-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-weather-10.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-weather-10.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-weather-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-weather-10.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-weather-10.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-weather-10.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/linea-weather-10.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/linea-weather-10.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/themify.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/themify.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/themify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/themify.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/themify.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/themify.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/themify.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/themify.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/weathericons-regular-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/weathericons-regular-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/weathericons-regular-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/weathericons-regular-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fonts/weathericons-regular-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/blue-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/dark-sidebar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/default-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/colors/default-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/gray-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/gray.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/green-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/light-sidebar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/megna-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/megna.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/purple-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/colors/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/dashboard2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/dashboard3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/dashboard4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/icons/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/icons/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/icons/linea-icons/linea.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/icons/linea-icons/linea.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/icons/simple-line-icons/less/simple-line-icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/icons/simple-line-icons/less/simple-line-icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/icons/themify-icons/themify-icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/icons/themify-icons/themify-icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/icons/weather-icons/less/weather-icons-core.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/icons/weather-icons/less/weather-icons-core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/style-dark.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/style-dark.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/style-light.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/variables-light.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/less/widgets.less" beforeDir="false" afterPath="$PROJECT_DIR$/resources/less/widgets.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/plugins/bower_components/html5-editor/wysihtml5-0.3.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugins/bower_components/html5-editor/wysihtml5-0.3.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/plugins/bower_components/switchery/standalone/switchery.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plugins/bower_components/switchery/standalone/switchery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="197" column="90" selection-start-line="197" selection-start-column="90" selection-end-line="197" selection-end-column="90" />
+            <state relative-caret-position="3026">
+              <caret line="175" column="72" selection-start-line="175" selection-start-column="72" selection-end-line="175" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -155,8 +47,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="320" column="94" lean-forward="true" selection-start-line="320" selection-start-column="94" selection-end-line="320" selection-end-column="94" />
+            <state relative-caret-position="806">
+              <caret line="475" column="49" lean-forward="true" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/calendar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -182,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.mix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+            <state relative-caret-position="656">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -192,7 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>de</find>
       <find>basic</find>
       <find>basu</find>
       <find>../less/icons/linea-icons</find>
@@ -222,6 +122,7 @@
       <find>tiny</find>
       <find>color</find>
       <find>summer</find>
+      <find>mo</find>
     </findStrings>
     <replaceStrings>
       <replace>fonts/</replace>
@@ -242,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/js/respond.min.js" />
         <option value="$USER_HOME$/Desktop/ADMINISTRATION/pixel-admin/pixel-admin/pixel-demos/dark/blank.html" />
         <option value="$PROJECT_DIR$/resources/less/pages.less" />
         <option value="$PROJECT_DIR$/resources/less/eliteadmin.less" />
@@ -289,10 +189,11 @@
         <option value="$PROJECT_DIR$/resources/plugins/bower_components/jquery-sparkline/jquery.charts-sparkline.js" />
         <option value="$PROJECT_DIR$/resources/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/plugins/bower_components/html5-editor/wysihtml5-0.3.0.js" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/views/pages/calendar.blade.php" />
       </list>
     </option>
   </component>
@@ -426,45 +327,14 @@
               <item name="administration" type="b2602c69:ProjectViewProjectNode" />
               <item name="administration" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="administration" type="b2602c69:ProjectViewProjectNode" />
               <item name="administration" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="administration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="administration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="html5-editor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="administration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="summernote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="administration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="summernote" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -520,18 +390,26 @@
       <workItem from="1552165868321" duration="21624000" />
       <workItem from="1552218141455" duration="36735000" />
       <workItem from="1552343564381" duration="12000" />
-      <workItem from="1552378491031" duration="25925000" />
+      <workItem from="1552378491031" duration="27784000" />
     </task>
+    <task id="LOCAL-00001" summary="Added charts, editor ,etc">
+      <created>1552414224994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552414224994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84296000" />
+    <option name="totallyTimeSpent" value="86155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1926" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2073955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2073955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -547,7 +425,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.8027842" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.501006" side_tool="true" weight="0.09501558" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49899396" weight="0.2024922" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49899396" visible="true" weight="0.16277258" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -559,14 +437,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added charts, editor ,etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added charts, editor ,etc" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/style-dark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="10816" column="14" selection-start-line="10816" selection-start-column="14" selection-end-line="10816" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/AdminLTE-2.4.3/AdminLTE-2.4.3/bower_components/font-awesome/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -855,15 +730,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/calendar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="197" column="90" selection-start-line="197" selection-start-column="90" selection-end-line="197" selection-end-column="90" />
+        <state relative-caret-position="3026">
+          <caret line="175" column="72" selection-start-line="175" selection-start-column="72" selection-end-line="175" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -875,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="320" column="94" lean-forward="true" selection-start-line="320" selection-start-column="94" selection-end-line="320" selection-end-column="94" />
+        <state relative-caret-position="806">
+          <caret line="475" column="49" lean-forward="true" selection-start-line="475" selection-start-column="49" selection-end-line="475" selection-end-column="49" />
         </state>
       </provider>
     </entry>

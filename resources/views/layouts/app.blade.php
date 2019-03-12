@@ -172,6 +172,9 @@
                             <li class="text-center">
                                 <div id="datepicker-inline"></div>
                             </li>
+                            <li class="text-center">
+                                <a href="{{ url('/schedule') }}" class="">Calendar</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

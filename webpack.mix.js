@@ -24,11 +24,15 @@ mix.js([
     'resources/plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js',
     'resources/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js',
     'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.js',
+    // 'resources/plugins/bower_components/calendar/jquery-ui.min.js',
+    // 'resources/plugins/bower_components/calendar/dist/fullcalendar.min.js',
+    // 'resources/plugins/bower_components/calendar/dist/jquery.fullcalendar.js',
     ], 'public/js/app.js')
 
     // .copy('resources/plugins/bower_components/html5-editor/wysihtml5-0.3.0.js', 'public/js/editorone.js')
     // .copy('resources/plugins/bower_components/html5-editor/bootstrap-wysihtml5.js', 'public/js/editortwo.js')
     .copy('resources/plugins/bower_components/summernote/dist/summernote.js', 'public/js/editor.js')
+    // .copy('resources/plugins/bower_components/moment/moment.js', 'public/js/moment.js')
 
     .less('resources/less/style-dark.less', 'public/css/style-dark.css')
     // .less('resources/less/style-light.less', 'public/css/style-light.css')
@@ -59,6 +63,7 @@ mix.js([
         'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.css',
         'resources/plugins/bower_components/html5-editor/bootstrap-wysihtml5.css',
         'resources/plugins/bower_components/summernote/dist/summernote.css',
+        // 'resources/plugins/bower_components/calendar/dist/fullcalendar.css',
         'resources/css/animate.css',
         'resources/css/spinners.css',
         'resources/css/switches.css',
