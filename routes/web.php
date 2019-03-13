@@ -19,4 +19,6 @@ Route::get('/docs', function () {
 });
 Route::get('/login', function () {
     return view('auth.login');
+});Route::get('/com', function () {
+    return view('pages.components');
 });
