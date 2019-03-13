@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -31,17 +31,12 @@
                 <i class="ti-menu"></i>
             </a>
             <div class="top-left-part">
-                <a class="logo" href=""><b>
-                        <!--This is dark logo icon-->
-                        <img src="{{ asset(config('administration.file_prefix') . 'img/pixeladmin-logo.png') }}" alt="home" class="dark-logo" />
-                        <!--This is light logo icon-->
-                        <img src="{{ asset(config('administration.file_prefix') . 'img/pixeladmin-logo-dark.png') }}" alt="home" class="light-logo" />
+                <a class="logo" href="">
+                    <b>
+                        AP
                     </b>
                     <span class="hidden-xs">
-                        <!--This is dark logo text-->
-                        <img src="{{ asset(config('administration.file_prefix') . 'img/pixeladmin-text.png') }}" alt="home" class="dark-logo" />
-                        <!--This is light logo text-->
-                        <img src="{{ asset(config('administration.file_prefix') . 'img/pixeladmin-text-dark.png') }}" alt="home" class="light-logo" />
+                        {{ config('app.name', 'Administration Panel') }}
                     </span>
                 </a>
             </div>
@@ -104,16 +99,21 @@
                 <li class="hidden-sm hidden-md hidden-lg" style="width: 100vw;"></li>
                 <li class="nav-small-cap m-t-10">{{ trans('administration::admin.menu') }}</li>
                 <li><a href="#" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i> <span class="hide-menu">Dashboard</span></a></li>
-                <li> <a href="javascript:void(0)" class="waves-effect"><i data-icon="F" class="linea-icon linea-software fa-fw"></i> <span class="hide-menu">Multi-Level Dropdown<span class="fa arrow"></span></span></a>
+                <li>
+                    <a class="waves-effect active">
+                        <i data-icon="F" class="linea-icon linea-software fa-fw"></i>
+                        <span class="hide-menu">Multi-Level Dropdown
+                            <span class="fa arrow"></span>
+                        </span>
+                    </a>
                     <ul class="nav nav-second-level">
                         <li> <a href="javascript:void(0)">Second Level Item</a> </li>
-                        <li> <a href="javascript:void(0)">Second Level Item</a> </li>
+                        <li> <a href="{{ url('/') }}" class="@if(Request::url()) active @endif">Second Level Item</a> </li>
                         <li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>
                             <ul class="nav nav-third-level">
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
-                                <li> <a href="{{ url('/') }}">Third Level Item</a> </li>
                             </ul>
                         </li>
                     </ul>
@@ -172,9 +172,9 @@
                             <li class="text-center">
                                 <div id="datepicker-inline"></div>
                             </li>
-                            <li class="text-center">
-                                <a href="{{ url('/schedule') }}" class="">Calendar</a>
-                            </li>
+                            {{--<li class="text-center">--}}
+                                {{--<a href="{{ url('/schedule') }}" class="">Calendar</a>--}}
+                            {{--</li>--}}
                         </ul>
                     </div>
                 </div>

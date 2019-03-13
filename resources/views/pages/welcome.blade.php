@@ -391,6 +391,113 @@
 
     <!-- /.row -->
 
+    <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">en</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">bg</a></li>
+            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content m-t-0" >
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="white-box">
+                            <h3 class="box-title m-b-0">Default Basic Forms</h3>
+                            <p class="text-muted m-b-30 font-13"> All bootstrap element classies </p>
+                            <form class="form-horizontal" data-toggle="validator">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="inputEmail" class="control-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12">Helping text</label>
+                                    <div class="col-sm-12">
+                                        <input type="text" class="form-control" placeholder="Helping text"> <span class="help-block"><small>A block of help text that breaks onto a new line and may extend beyond one line.</small></span> </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="inputFile" class="control-label">File upload</label>
+                                        <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                            <div class="form-control" data-trigger="fileinput">
+                                                <span class="fileinput-filename"></span>
+                                            </div>
+                                            <span class="input-group-addon btn btn-default btn-file">
+                                    <span class="fileinput-new">
+                                        Select file
+                                    </span>
+                                    <span class="fileinput-exists">
+                                        Change
+                                    </span>
+                                        <input type="file" id="inputFile" name="file" data-error="Bruh, that file is invalid">
+                                    </span>
+                                            <a href="#" class="input-group-addon btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-12">Default Text <span class="help"> e.g. "George deo"</span></label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-12" for="example-email">Email <span class="help"> e.g. "example@gmail.com"</span></label>
+                                    <div class="col-md-12">
+                                        <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email"> </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-12">Password</label>
+                                    <div class="col-md-12">
+                                        <input type="password" class="form-control" value="password"> </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-12">Input Select</label>
+                                    <div class="col-sm-12">
+                                        <select class="form-control">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <h3 class="box-title">Default Summernote</h3>
+                            <div class="summernote">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="white-box">
+                            <h3 class="box-title">Default Summernote</h3>
+                            <div class="summernote">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages">dsvsbfbd</div>
+            <div role="tabpanel" class="tab-pane" id="settings">...</div>
+        </div>
+
+    </div>
+
 @endsection
 
 @section('js')

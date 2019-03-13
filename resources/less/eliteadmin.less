@@ -876,12 +876,12 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 // --Topbar
 .logo b{
    /*background:@themecolor;*/
-   height: 60px;
-   display: inline-block;
-   width:60px;
-   line-height:60px;
-   text-align:center;
-    
+    height: 60px;
+    display: inline-block;
+    width:40px;
+    line-height:60px;
+    text-align:center;
+    text-transform: uppercase;
 }
 .logo i{ color:@white;}
 .top-left-part{ 
@@ -892,8 +892,11 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     color: @white;
     font-size: 18px;
     padding-left:0px;
-    text-transform: uppercase;
-        }
+      span{
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+    }
     .light-logo{ display:none;}
     }
 .navbar-header{ 
