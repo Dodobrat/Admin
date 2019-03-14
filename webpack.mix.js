@@ -35,6 +35,7 @@ mix.js([
     .copy('resources/js/respond.min.js', 'public/js/respond.min.js', true)
     .copy('resources/plugins/bower_components/jquery/dist/jquery.min.js', 'public/js/jquery.min.js', true)
     .copy('resources/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js', 'public/js/charts.js', true)
+    .copy('resources/plugins/bower_components/flag-icon-css/flags', 'public/flags', true)
     .copy('resources/plugins/images', 'public/img', true)
     .copy('resources/bootstrap/fonts', 'public/fonts', true)
     .copy('resources/fonts', 'public/fonts', true)
@@ -57,6 +58,7 @@ mix.js([
         'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.css',
         'resources/plugins/bower_components/html5-editor/bootstrap-wysihtml5.css',
         'resources/plugins/bower_components/summernote/dist/summernote.css',
+        'resources/plugins/bower_components/flag-icon-css/css/flag-icon.min.css',
         'resources/css/animate.css',
         'resources/css/spinners.css',
         'resources/css/switches.css',

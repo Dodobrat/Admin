@@ -25,6 +25,7 @@
         "vue-template-compiler": "^2.6.8"
     },
     "dependencies": {
-        "css-toggle-switch": "^4.1.0"
+        "css-toggle-switch": "^4.1.0",
+        "flag-icon-css": "^3.3.0"
     }
 }
