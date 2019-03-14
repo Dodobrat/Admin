@@ -1,12 +1,13 @@
 {
-    "/js/app.js": "/js/app.js?id=899d1aa68a1598a1ed0a",
-    "/css/style-dark.css": "/css/style-dark.css?id=d6a8c70b157fbf4b6ff9",
+    "/js/app.js": "/js/app.js?id=6af661cd82ba5971c85f",
+    "/css/style-dark.css": "/css/style-dark.css?id=e43c4ae7c371967ed4d9",
+    "/css/style-light.css": "/css/style-light.css?id=b332bf5a1f7bc0806ef3",
     "/js/editor.js": "/js/editor.js?id=f1ea68845d0ad22aec6e",
     "/js/html5shiv.js": "/js/html5shiv.js?id=484071b102963041ccf9",
     "/js/respond.min.js": "/js/respond.min.js?id=43f8e67af3194f1791c6",
     "/js/jquery.min.js": "/js/jquery.min.js?id=6326c600df01e3bfb9b4",
     "/js/charts.js": "/js/charts.js?id=ac51f82286bed1ab40bf",
-    "/css/add.css": "/css/add.css?id=5f25556f0ac51bc4bb4e",
-    "/css/default-dark.css": "/css/default-dark.css?id=c5b159fa423c08693ace",
-    "/css/default.css": "/css/default.css?id=5f3e2c81001fc9767336"
+    "/css/add.css": "/css/add.css?id=b59ced066c3ca8740427",
+    "/css/default-dark.css": "/css/default-dark.css?id=6e890535ce6237b384b0",
+    "/css/default.css": "/css/default.css?id=4013138e933b67f1fcac"
 }

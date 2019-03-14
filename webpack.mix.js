@@ -29,7 +29,7 @@ mix.js([
     .copy('resources/plugins/bower_components/summernote/dist/summernote.js', 'public/js/editor.js')
 
     .less('resources/less/style-dark.less', 'public/css/style-dark.css')
-    // .less('resources/less/style-light.less', 'public/css/style-light.css')
+    .less('resources/less/style-light.less', 'public/css/style-light.css')
 
     .copy('resources/js/html5shiv.js', 'public/js/html5shiv.js', true)
     .copy('resources/js/respond.min.js', 'public/js/respond.min.js', true)
@@ -64,8 +64,8 @@ mix.js([
         'resources/css/switches.css',
     ],  'public/css/add.css')
 
-    .styles('resources/css/colors/default-dark.css', 'public/css/default-dark.css')
-    .styles('resources/css/colors/default.css', 'public/css/default.css')
+    .styles('resources/less/colors/default-dark.less', 'public/css/default-dark.css')
+    .styles('resources/less/colors/default.less', 'public/css/default.css')
 
     .options({
         processCssUrls: false
