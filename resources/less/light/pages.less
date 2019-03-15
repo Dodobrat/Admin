@@ -91,8 +91,8 @@
 
 .tabs-style-bar nav ul li a {
     margin: 0 2px;
-    background-color: @extralight;
-    color: @dark;
+    background-color: #f7fafc;
+    color: #686868;
     padding: 5px 0;
     transition: background-color 0.2s, color 0.2s;
     &:hover,
@@ -473,9 +473,9 @@
     }
     nav a {
         overflow: visible;
-        color: @dark;
+        color: #2b2b2b;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 14;
         line-height: 1.1;
         -webkit-transition: color 0.3s cubic-bezier(0.7, 0, 0.3, 1);
         transition: color 0.3s cubic-bezier(0.7, 0, 0.3, 1);
@@ -1177,7 +1177,7 @@ a.mytooltip {
     margin: -7px 0 0 -15px;
     width: 30px;
     height: 20px;
-    background: url('../../public/img/tooltip/tooltip1.svg') no-repeat center center;
+    background: url(../../plugins/images/tooltip/tooltip1.svg) no-repeat center center;
     background-size: 100%;
 }
 
@@ -1186,7 +1186,7 @@ a.mytooltip {
 
 .tooltip-content3 {
     position: absolute;
-    background: url('../../public/img/tooltip/shape1.svg') no-repeat center bottom;
+    background: url(../../plugins/images/tooltip/shape1.svg) no-repeat center bottom;
     background-size: 100% 100%;
     z-index: 9999;
     width: 200px;
@@ -1198,7 +1198,7 @@ a.mytooltip {
     color: #fff;
     opacity: 0;
     cursor: default;
-    font-size: 14px;
+    font-size: 14;
     line-height: 27px;
     pointer-events: none;
     -webkit-transform: scale3d(0.1, 0.2, 1);
@@ -1473,7 +1473,6 @@ a.mytooltip {
         font-weight: 500;
         padding: 8px 0;
         margin-top: 12px;
-        color: @white;
     }
 }
 
@@ -1503,7 +1502,7 @@ button.dt-button:hover:not(.disabled),
 div.dt-button:hover:not(.disabled),
 a.dt-button:hover:not(.disabled) {
     background: @extralight;
-    color: @bodytext;
+    color: @dark;
     border-color: @border;
 }
 
@@ -1528,13 +1527,6 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
     .panel-heading {
         padding: 6px 10px 10px;
     }
-    .note-editing-area .note-editable {
-        background: @bodycolor;
-        color: @bodytext;
-    }
-    .note-statusbar {
-        background: @bodycolor;
-    }
 }
 
 
@@ -1554,7 +1546,7 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
 
 .left-aside {
     position: absolute;
-    background: @sidebar;
+    background: @white;
     border-right: 1px solid @border;
     padding: 20px;
     width: 250px;
@@ -1608,7 +1600,7 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
 
 .chat-main-box {
     position: relative;
-    background: @sidebar;
+    background: @white;
     overflow: hidden;
     .chat-left-aside {
         position: absolute;
@@ -1623,7 +1615,7 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
             left: -webkit-calc(100% - 1px);
             top: 50%;
             z-index: 100;
-            background-color: @sidebar;
+            background-color: #fff;
             -webkit-box-shadow: 1px 0 3px rgba(0, 0, 0, .2);
             box-shadow: 1px 0 3px rgba(0, 0, 0, .2);
             border-radius: 0 100px 100px 0;
@@ -1683,22 +1675,6 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
             }
         }
     }
-}
-
-
-/*Horizontal timeline*/
-
-.cd-horizontal-timeline .events {
-    background: @border;
-}
-
-.cd-horizontal-timeline .events a::after {
-    background: @bodycolor;
-}
-
-.cd-timeline-navigation a,
-.cd-horizontal-timeline .events a::after {
-    border-color: @border;
 }
 
 
@@ -1823,7 +1799,6 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
     right: 0px;
     margin-top: 0px;
     height: 100%;
-    background: @sidebar;
 }
 
 
@@ -2276,4 +2251,12 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
 
 .has-feedback label~.t-0 {
     top: 0;
+}
+
+/*Dashboard chart*/
+.dashboard-chart{
+    margin-left:-33px;
+     margin-right:-33px;
+    margin-top:-25px;
+    
 }

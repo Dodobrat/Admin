@@ -1,0 +1,168 @@
+.asColorPicker-wrap{
+  width: calc(100% - 37px);
+}
+.lang-separator{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.lang-button{
+  display: inline;
+  padding: 12px 15px;
+  margin: 0;
+  color: #dce2ec;
+  font-size: 14px;
+  text-transform: uppercase;
+}.lang-button span{
+   margin: 0 8px 0 0;
+ }
+.lang-separator li.active{
+  background-color: #353c48;
+}
+.lang-button:hover{
+  cursor: pointer;
+}
+.flag-icon{
+  margin-right: 5px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.onoffswitch {
+  position: relative;
+  width: 75px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  border: 2px solid #96a2b4;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0px;
+}
+.onoffswitch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in-out;
+}
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+  content: url('../images/sun.svg');
+  padding: 8px 0 0 17px;
+  text-align: left;
+  transform: scale(1.5);
+  background-color: #4f5467;
+  color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+  content: url('../images/moon.svg');
+  background-color: #dce2ec;
+  color: #999999;
+  text-align: right;
+  padding: 7px 18px 0 0;
+  transform: scale(1.5);
+}
+.onoffswitch-switch {
+  display: block;
+  width: 33px;
+  margin: 0px;
+  background: #fff !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 44px;
+  border-radius: 20px;
+  transition: all 0.275s ease-in-out;
+  height: 33px;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}
+
+.preloader{
+  background: #333 !important;
+}
+
+.top-left-part{
+  .logo{
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 17px;
+    b{
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.rpanel-title{
+  span{
+    i{
+      padding: 15px 20px;
+      &:hover{
+        color: #fff;
+      }
+    }
+  }
+}
+
+.open-close:hover{
+  cursor: pointer;
+}
+
+.right-side-toggle:hover{
+  cursor: pointer;
+}
+
+table.dataTable thead .sorting:after{
+  color: #96A2B3 !important;
+}
+
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td {
+  padding: 10px !important;
+  white-space: nowrap !important;
+}
+
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border: none;
+  border-right: 1px solid rgba(255,255,255,0.2) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+  color: #333 !important;
+  border: 1px solid #fff !important;
+  background-color: #fff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+  color: #333 !important;
+  border: 1px solid #eee !important;
+  background-color: #eee !important;
+}

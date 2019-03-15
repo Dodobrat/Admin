@@ -1,4 +1,3 @@
-
 @import "variables.less";
 
 // Global Styles
@@ -69,7 +68,7 @@ p {
 }
 
 b {
-  font-weight:600;
+  font-weight:@font-bold;
 }
 a {
     
@@ -88,6 +87,8 @@ a {
 }
 .clear{ clear:both;}
 .font-12{font-size:12px;}
+.font-18{font-size:18px;}
+.font-21{font-size:21px;}
 hr{ border-color: @border;}
 .b-t {
     border-top: 1px solid @border;
@@ -270,9 +271,10 @@ hr{ border-color: @border;}
 .vb{
   vertical-align:bottom;
 }
-.font-bold {
-  font-weight: 700;
+.font-bold, b, strong {
+  font-weight: @font-bold;
 }
+
 .font-normal {
   font-weight: normal;
 }
@@ -329,7 +331,7 @@ hr{ border-color: @border;}
 /* Badge */
 .badge {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight:@font-bold;
   padding: 3px 5px;
   font-size: 12px;
   margin-top: 1px;
@@ -530,33 +532,40 @@ hr{ border-color: @border;}
 .bg-theme-dark {
   background-color: @dark-themecolor !important;
 }
-
-
+.bg-gray{
+    background-color:#e6eaef !important;
+}
 .bg-inverse {
   background-color: @inverse !important;
 }
-
+.bg-extlgt {
+  background-color: @extralight !important;
+}
 .bg-purple {
   background-color: @purple !important;
 }
-
+.bg-dark{
+    background-color:@dark !important; 
+}
 .bg-white {
   background-color: @white !important;
 }
-
+.bg-megna {
+  background-color: @megna !important;
+}
 /* Labels */
 
 .label {
   letter-spacing: 0.05em;
   border-radius: 60px;
   padding: 4px 12px 3px;
-  font-weight:500;
+  font-weight:@font-bold;
 
 }
 .label-rounded, .label-rouded  {
   border-radius: 60px;
   padding: 4px 12px 3px;
-  font-weight:500;
+  font-weight:@font-bold;
 }
 .label-custom {
   background-color: @megna;
@@ -609,7 +618,7 @@ hr{ border-color: @border;}
   margin-bottom:6px;
 }
 label{ 
-  font-weight:500;
+  font-weight:@font-bold;
 }
 .btn{
   border-radius:@radius;
@@ -670,14 +679,8 @@ label{
   margin-bottom:10px;
   padding:15px;
   .media-heading{
-      font-weight:500;
+      font-weight:@font-bold;
   }
-}
-a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover{
-  background:@extralight;
-}
-.list-group-item.disabled, .list-group-item.disabled:focus, .list-group-item.disabled:hover{
-  background:@extralight;
 }
 .well, pre{
   background:@white;
@@ -836,12 +839,10 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     left: 0px;
     padding: 20px 30px;
     position:absolute; 
-    
+    background: @white;
     right: 0;
-    background:@white;
-
+    
 }
-
 
 // Page title
 
@@ -853,7 +854,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   margin-left:-25.5px;
   margin-right:-25.5px;
   
-  h4{ color:rgba(0, 0, 0, 0.5); font-weight:600; margin-top:6px;}
+  h4{ color:rgba(0, 0, 0, 0.5); font-weight:@font-bold; margin-top:6px;}
   .breadcrumb{
     background:none;
     margin-bottom:0px;
@@ -876,12 +877,12 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 // --Topbar
 .logo b{
    /*background:@themecolor;*/
-    height: 60px;
-    display: inline-block;
-    width:40px;
-    line-height:60px;
-    text-align:center;
-    text-transform: uppercase;
+   height: 60px;
+   display: inline-block;
+   width:60px;
+   line-height:60px;
+   text-align:center;
+    
 }
 .logo i{ color:@white;}
 .top-left-part{ 
@@ -892,11 +893,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     color: @white;
     font-size: 18px;
     padding-left:0px;
-      span{
-        font-size: 16px;
-        text-transform: capitalize;
-      }
-    }
+    text-transform: uppercase;
+        }
     .light-logo{ display:none;}
     }
 .navbar-header{ 
@@ -1015,7 +1013,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   background: rgba(255,255,255,0.9);
   box-shadow: none;
   height: 30px;
-  font-weight: 600;
+  font-weight: @font-bold;
   width: 180px;
   display:inline-block;
   line-height:30px;
@@ -1026,17 +1024,18 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 
 
 .app-search .form-control::-moz-placeholder{
-  color:@bodytext;
+  color:@inverse;
   opacity:0.5;
 }
-.app-search  .form-control::-webkit-input-placeholder { color:@bodytext;
+.app-search  .form-control::-webkit-input-placeholder { color:@inverse;
   opacity:0.5; }
-.app-search  .form-control::-ms-placeholder { color:@bodytext;
+.app-search  .form-control::-ms-placeholder { color:@inverse;
   opacity:0.5; }
+
 .nav-small-cap {
     color: #a6afbb;
     cursor: default;
-    font-weight:500;
+    font-weight:@font-bold;
     text-transform:uppercase;
     font-size: 13px;
     letter-spacing: 0.035em;
@@ -1057,7 +1056,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color:@dark;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: @font-bold;
   padding: 11px 20px 15px;
 } 
 
@@ -1148,7 +1147,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 }
 
 .btn-default.btn-outline {
-    background-color:@dark-themecolor;
+    background-color:@white;
     &:hover, &:focus, &.focus{
     background:@light;
     
@@ -1156,7 +1155,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 }
 .btn-primary.btn-outline {
     color: @primary;
-    background-color:@dark-themecolor;
+    background-color:@white;
      &:hover, &:focus, &.focus{
     background:@primary;
     color:@white;
@@ -1430,10 +1429,11 @@ table.dataTable thead .sorting:after {
 .white-box{ 
     background:@white;
     padding:25px;
+    
     margin-bottom:15px;
     .box-title{
       margin:0px 0px 12px;
-      font-weight:500;
+      font-weight:@font-bold;
       text-transform:uppercase;
       font-size:14px;
     }
@@ -1444,7 +1444,7 @@ table.dataTable thead .sorting:after {
   border:0px;
   .panel-heading{
     border-radius:@radius;
-    font-weight:600;
+    font-weight:@font-bold;
     text-transform:uppercase;
     padding:20px 25px;
     .panel-title{ 
@@ -1469,7 +1469,7 @@ table.dataTable thead .sorting:after {
   .panel-body{ padding:25px;
     &:first-child h3{
       margin-top:0px;
-      font-weight:600;
+      font-weight:@font-bold;
       font-family:@basefont1;
       font-size:14px;
       text-transform:uppercase;
@@ -2389,7 +2389,7 @@ Models
         border: 1px solid @border;
         padding: 8px 16px;
         height: auto;
-        font-weight: 600;
+        font-weight:@font-bold;
         border-radius:@radius;
 
         &:hover {
@@ -2431,7 +2431,7 @@ Models
       border: 1px solid @border;
       padding: 8px 16px 8px 46px;
       background: @white;
-      font-weight: 600;
+      font-weight: @font-bold;
 
       &:hover {
         color: @info;
@@ -2441,7 +2441,7 @@ Models
       width: 26px;
       height: 26px;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: @font-bold;
     }
   }
 }
