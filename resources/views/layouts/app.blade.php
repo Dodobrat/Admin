@@ -100,17 +100,17 @@
                 <li class="nav-small-cap m-t-10">{{ trans('administration::admin.menu') }}</li>
                 <li><a href="#" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i> <span class="hide-menu">Dashboard</span></a></li>
                 <li>
-                    <a class="waves-effect active">
-                        <i data-icon="F" class="linea-icon linea-software fa-fw"></i>
+                    <a class="waves-effect" href="javascript:void(0)">
+                        <i class="fa fa-user fa-fw"></i>
                         <span class="hide-menu">Multi-Level Dropdown
                             <span class="fa arrow"></span>
                         </span>
                     </a>
-                    <ul class="nav nav-second-level">
+                    <ul class="nav nav-second-level p-l-20">
+                        <li> <a href="/">Second Level Item</a> </li>
                         <li> <a href="javascript:void(0)">Second Level Item</a> </li>
-                        <li> <a href="{{ url('/') }}" class="@if(Request::url()) active @endif">Second Level Item</a> </li>
                         <li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>
-                            <ul class="nav nav-third-level">
+                            <ul class="nav nav-third-level p-l-20">
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
@@ -147,6 +147,16 @@
                     <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
                     <div class="r-panel-body">
                         <ul>
+                            <li>
+                                <h5 class="m-t-30 m-b-10">Select box</h5>
+                                <select class="selectpicker" data-style="form-control">
+                                    <option>Mustard</option>
+                                    <option>Ketchup</option>
+                                    <option>Relish</option>
+                                </select>
+                            </li>
+
+
                             <li><b>Layout Options</b></li>
                             <li>
                                 <div class="row">
