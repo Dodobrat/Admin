@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/add.css') }}">
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" disabled>
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" >
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-dark.css') }}" disabled>
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-light.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" disabled>
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-dark.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-light.css') }}" disabled>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -144,16 +144,25 @@
             <!-- .right-sidebar -->
             <div class="right-sidebar">
                 <div class="slimscrollright">
-                    <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span> </div>
+                    <div class="rpanel-title"> Service Panel <span class="m-t-5"><i class="ti-close right-side-toggle"></i></span> </div>
                     <div class="r-panel-body">
                         <ul>
                             <li>
-                                <h5 class="m-t-30 m-b-10">Select box</h5>
-                                <select class="selectpicker" data-style="form-control">
-                                    <option>Mustard</option>
-                                    <option>Ketchup</option>
-                                    <option>Relish</option>
-                                </select>
+                                <h5 class="m-b-20 font-normal text-muted">Current Language : <span class="flag-icon flag-icon-bg"></span> <span style="text-transform: uppercase;">bg</span></h5>
+
+                                <div class="dropdown lang-switch m-b-20">
+                                    <a href="javascript:void (0)"
+                                       data-toggle="dropdown"
+                                       role="button"
+                                       aria-expanded="false">
+                                        Change Language
+                                        <span class="caret pull-right vertical-middle"></span></a>
+                                    <ul class="dropdown-menu dropdown-lang">
+                                        <li><a href=""><span class="flag-icon flag-icon-en"></span> {{ trans('administration::lang.en') }}</a></li>
+                                        <li><a href=""><span class="flag-icon flag-icon-bg"></span> {{ trans('administration::lang.bg') }}</a></li>
+                                    </ul>
+                                </div>
+
                             </li>
 
 
@@ -182,8 +191,11 @@
                             <li class="text-center">
                                 <div id="datepicker-inline"></div>
                             </li>
-                            {{--<li class="text-center">--}}
-                                {{--<a href="{{ url('/schedule') }}" class="">Calendar</a>--}}
+                            {{--<li>--}}
+                                {{--<a href="#" class="p-t-10 p-b-10 text-muted schedule">--}}
+                                    {{--<i class="ti-calendar m-l-10 m-r-10"></i>--}}
+                                    {{--Schedule--}}
+                                {{--</a>--}}
                             {{--</li>--}}
                         </ul>
                     </div>
