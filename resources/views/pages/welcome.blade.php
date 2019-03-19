@@ -109,7 +109,17 @@
                         <td>Airi Satou</td>
                         <td>Accountant</td>
                         <td>Tokyo</td>
-                        <td>33</td>
+                        <td>
+
+                            <label class="table-switch switch-light switch-ios m-t-0 m-b-0" onclick="">
+                                <input type="checkbox">
+                                <span class="m-t-0 m-b-0">
+                                  <a></a>
+                                </span>
+                            </label>
+
+
+                        </td>
                     </tr><tr>
                         <td>Tiger Nixon</td>
                         <td>System Architect</td>
@@ -146,75 +156,7 @@
         </div>
     </div>
 
-
-    <button id="modal-btn" class="button">Click Here</button>
-
-    <div id="my-modal" class="media-modal">
-        <div class="media-modal-content">
-            <div class="media-modal-header">
-                <span class="media-close">&times;</span>
-                <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-                    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-                    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-                </ul>
-            </div>
-            <div class="media-modal-body">
-                <div class="tab-content m-t-0">
-                    <div id="home" class="tab-pane fade in active">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="white-box m-b-0">
-                                    <form action="#" class="dropzone">
-                                        <div class="fallback">
-                                            <input name="file" type="file" multiple /> </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="menu1" class="tab-pane fade">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="white-box m-b-0">
-                                    <form action="wtf" class="dropzone">
-                                        <input name="blog_id" type="text" value="111"  />
-                                        <div class="fallback">
-                                            <input name="file" type="file" multiple /> </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="menu2" class="tab-pane fade">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="white-box m-b-0">
-                                    <form action="#" class="dropzone">
-                                        <div class="fallback">
-                                            <input name="file" type="file" multiple /> </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="white-box m-b-0">
-                                    <form action="#" class="dropzone">
-                                        <div class="fallback">
-                                            <input name="file" type="file" multiple /> </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('components.dashboard.link-box')
 
 @endsection
 

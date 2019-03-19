@@ -1,10 +1,12 @@
+//dont display scrollbars on popups
 body.stop-scrolling {
   overflow: hidden !important;
 }
-
+//able to chage colorpicker width in form
 .asColorPicker-wrap{
   width: calc(100% - 37px);
 }
+//language form tabs
 .lang-separator{
   padding: 0;
   margin: 0;
@@ -30,6 +32,7 @@ body.stop-scrolling {
   margin-right: 5px;
   border: 1px solid rgba(255,255,255,0.2);
 }
+//theme switcher
 .onoffswitch {
   position: relative;
   width: 75px;
@@ -98,44 +101,57 @@ body.stop-scrolling {
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
   right: 0px;
 }
-
+//preloader
 .preloader{
-  background: #333 !important;
+    background: #333 !important;
 }
-
+//top-left logo/text
 .top-left-part{
-  .logo{
-    color: #fff !important;
-    text-transform: capitalize;
-    font-size: 17px;
-    b{
-      font-size: 18px;
-      text-transform: uppercase;
+    .logo{
+        color: #fff !important;
+        text-transform: capitalize;
+        font-size: 17px;
+        b{
+            font-size: 18px;
+            text-transform: uppercase;
+        }
     }
-  }
-}
-
-.rpanel-title{
-  span{
-    i{
-      padding: 15px 20px;
-      &:hover{
-        color: #fff;
-      }
-    }
-  }
-}
-
-.open-close:hover{
-  cursor: pointer;
 }
 
 .right-side-toggle:hover{
-  cursor: pointer;
+    cursor: pointer;
+}
+.rpanel-title{
+    span{
+        i{
+            padding: 15px 20px;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}
+.right-sidebar .rpanel-title{
+    padding: 18px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+//left-nav toggle
+.open-close:hover{
+    cursor: pointer;
+}
+
+//datatable
+.table-responsive{
+    border: none !important;
+}
+.table{
+    min-width: 100% !important;
+    width: auto !important;
 }
 
 table.dataTable thead .sorting:after{
-  color: #96A2B3 !important;
+    color: #96A2B3 !important;
 }
 
 .table > thead > tr > th,
@@ -144,8 +160,8 @@ table.dataTable thead .sorting:after{
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 10px !important;
-  white-space: nowrap !important;
+    padding: 10px !important;
+    white-space: nowrap !important;
 }
 
 .table > tbody > tr > td,
@@ -154,104 +170,102 @@ table.dataTable thead .sorting:after{
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > thead > tr > th {
-  border: none;
-  //border-right: 1px solid rgba(0,0,0,0.2) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.01) !important;
+    border: none;
+    //border-right: 1px solid rgba(0,0,0,0.2) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.01) !important;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
-  border: 1px solid rgba(255,255,255,0.05) !important;
-  background-color: rgba(255,255,255,0.05) !important;
-  color: #96A2B3 !important;
+    border: 1px solid rgba(255,255,255,0.05) !important;
+    background-color: rgba(255,255,255,0.05) !important;
+    color: #96A2B3 !important;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
-  border: 1px solid rgba(255,255,255,0.025) !important;
-  background-color: rgba(255,255,255,0.025) !important;
-  color: #96A2B3 !important;
+    border: 1px solid rgba(255,255,255,0.025) !important;
+    background-color: rgba(255,255,255,0.025) !important;
+    color: #96A2B3 !important;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover{
-  color: #96A2B3 !important;
+    color: #96A2B3 !important;
 }
 
 .table>tbody>tr:hover>td, .table>tbody>tr:hover>th {
-  background-color: rgba(0,0,0,0.125);
+    background-color: rgba(0,0,0,0.125);
 }
 
-
+.action-btn:hover{
+    cursor: pointer !important;
+}
+//media manager modal
 .media-modal {
-  display: none;
-  position: fixed;
-  z-index: 10000;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .media-modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
 }
 
 .nav-tabs{
-  border: none;
+    border: none;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-  border-radius: 0;
-  border: 1px solid transparent;
+    border-radius: 0;
+    border: 1px solid transparent;
 }
 .nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover{
-  //color: #fff;
-  color: #96a2b4;
-  background: transparent;
-  border-radius: 0;
-  border: 1px solid transparent;
+    //color: #fff;
+    color: #96a2b4;
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid transparent;
 }
 
 .media-modal-header {
-  background: transparent;
-  padding: 0;
-  color: #fff;
-  border: none;
+    background: transparent;
+    padding: 0;
+    color: #fff;
+    border: none;
 }
 
 .media-modal-body {
-  padding: 0;
-  background: transparent;
+    padding: 0;
+    background: transparent;
 }
 
 .media-close {
-  color: #96a2b4;
-  float: right;
-  line-height: 1;
-  font-size: 40px;
-  font-weight: 100;
+    color: #96a2b4;
+    float: right;
+    line-height: 1;
+    font-size: 40px;
+    font-weight: 100;
 }
 
 .media-close:hover,
 .media-close:focus {
-  text-decoration: none;
-  cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
 }
-
+//left-nav links
 .sidebar .nav-second-level li a{
     padding-left: 0 !important;
 }
 
-.right-sidebar .rpanel-title{
-  padding: 18px;
-  text-transform: capitalize;
-  font-size: 17px;
-}
-
+//right panel languge switcher
 .lang-switch{
   padding: 10px;
   background-color: transparent;
@@ -270,4 +284,86 @@ table.dataTable thead .sorting:after{
   .dropdown-lang{
     width: 200px;
   }
+}
+//datatable switch
+.table-switch.switch-ios.switch-light{
+    width: 50px;
+}
+.table-switch.switch-ios.switch-light a {
+    left: 0;
+    top: 0;
+    width: 1.45em;
+    height: 1.45em;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 2px solid #F96262;
+    transition: all .2s ease-out;
+}
+.table-switch.switch-ios.switch-light a:hover{
+    cursor: pointer;
+}
+.table-switch.switch-ios.switch-light > span {
+    display: block;
+    width: 100%;
+    height: 1.45em;
+    background-color: #f96262;
+    border-radius: 1.75em;
+    margin: 0;
+    transition: all .4s ease-out;
+}
+.table-switch.switch-ios.switch-light input:checked ~ span a {
+    left: 100%;
+    border-color: #4BD865;
+    margin-left: -1.45em; }
+.table-switch.switch-ios.switch-light input:checked ~ span {
+    border-color: #4BD865;
+    box-shadow: inset 0 0 0 30px #4BD865; }
+.table-switch.switch-ios.switch-light input:checked ~ span span:first-of-type {
+    opacity: 0; }
+.table-switch.switch-ios.switch-light input:checked ~ span span:last-of-type {
+    opacity: 1;
+    color: #fff; }
+.table-switch.switch-ios.switch-toggle {
+    background-color: #D8D9DB;
+    border-radius: 30px;
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0; }
+.table-switch.switch-ios.switch-toggle a {
+    background-color: #4BD865;
+    border: 0.125em solid #D8D9DB;
+    border-radius: 1.75em;
+    transition: all 0.12s ease-out; }
+.table-switch.switch-ios.switch-toggle label {
+    height: 2.4em;
+    color: #888b92;
+    line-height: 2.4em;
+    vertical-align: middle; }
+.table-switch.switch-ios input:checked + label {
+    color: #3e4043; }
+.table-switch.switch-light > span{
+    min-height: unset !important;
+}
+//link-dashboard box
+.link-box-cont > div {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.link-box-link h1{
+    text-align: center;
+    margin: 0;
+    line-height: 103px;
+}
+.link-box-cont, .link-box-t {
+    transition: 0.2s;
+}
+.link-box-cont {
+    height: 123px;
+    line-height: 123px;
+    overflow: hidden;
+}
+.link-box-t{
+    margin-top: 0px;
+}
+.link-box-cont:hover .link-box-t{
+    margin-top: -173px;
 }
