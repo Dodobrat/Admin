@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/add.css') }}">
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" disabled>
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" >
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-dark.css') }}" disabled>
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-light.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" disabled>
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-dark.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-light.css') }}" disabled>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -98,26 +98,26 @@
             <ul class="nav" id="side-menu">
                 <li class="hidden-sm hidden-md hidden-lg" style="width: 100vw;"></li>
                 <li class="nav-small-cap m-t-10">{{ trans('administration::admin.menu') }}</li>
-                <li><a href="#" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i> <span class="hide-menu">Dashboard</span></a></li>
-                <li>
-                    <a class="waves-effect" href="javascript:void(0)">
-                        <i class="fa fa-user fa-fw"></i>
-                        <span class="hide-menu">Multi-Level Dropdown
-                            <span class="fa arrow"></span>
-                        </span>
-                    </a>
-                    <ul class="nav nav-second-level p-l-20">
-                        <li> <a href="/">Second Level Item</a> </li>
-                        <li> <a href="javascript:void(0)">Second Level Item</a> </li>
-                        <li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>
-                            <ul class="nav nav-third-level p-l-20">
-                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
-                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
-                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
+                {{--<li><a href="#" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i> <span class="hide-menu">Dashboard</span></a></li>--}}
+                {{--<li>--}}
+                    {{--<a class="waves-effect" href="javascript:void(0)">--}}
+                        {{--<i class="fa fa-user fa-fw"></i>--}}
+                        {{--<span class="hide-menu">Multi-Level Dropdown--}}
+                            {{--<span class="fa arrow"></span>--}}
+                        {{--</span>--}}
+                    {{--</a>--}}
+                    {{--<ul class="nav nav-second-level p-l-20">--}}
+                        {{--<li> <a href="/">Second Level Item</a> </li>--}}
+                        {{--<li> <a href="javascript:void(0)">Second Level Item</a> </li>--}}
+                        {{--<li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>--}}
+                            {{--<ul class="nav nav-third-level p-l-20">--}}
+                                {{--<li> <a href="javascript:void(0)">Third Level Item</a> </li>--}}
+                                {{--<li> <a href="javascript:void(0)">Third Level Item</a> </li>--}}
+                                {{--<li> <a href="javascript:void(0)">Third Level Item</a> </li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
+                {{--</li>--}}
                 <li class="nav-small-cap">--- Support</li>
                 <li><a href="{{ url('/docs') }}" class="waves-effect"><i class="fa fa-circle-o text-danger"></i> <span class="hide-menu">Documentation</span></a></li>
             </ul>

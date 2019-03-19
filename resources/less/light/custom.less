@@ -117,6 +117,10 @@ body.stop-scrolling {
     }
   }
 }
+
+.content-wrapper .sidebar .nav-second-level li{
+    background-color: transparent !important;
+}
 //right panel title
 .rpanel-title{
   span{
@@ -408,3 +412,12 @@ body.stop-scrolling {
 .link-box-cont:hover .link-box-t{
     margin-top: -173px;
 }
+//media
+@media (max-width: 767px){
+    .fix-header .sidebar {
+        height: calc(100vh - 59px);
+        top: 59px;
+    }
+}
+
+
