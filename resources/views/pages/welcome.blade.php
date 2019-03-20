@@ -155,6 +155,8 @@
         {{--</div>--}}
     {{--</div>--}}
 
+
+    @include('components.dashboard.log-box')
     @include('components.dashboard.link-box')
 
 @endsection
@@ -176,46 +178,66 @@
             });
         });
 
-        $(document).ready(function() {
-            $.toast({
-                heading: 'Welcome to Pixel admin',
-                text: 'Use the predefined ones, or specify a custom position object.',
-                position: 'top-right',
-                loaderBg: '#ff6849',
-                icon: 'info',
-                hideAfter: 3500,
-                stack: 6
-            })
+        // $(document).ready(function() {
+        //     $.toast({
+        //         heading: 'Welcome to Pixel admin',
+        //         text: 'Use the predefined ones, or specify a custom position object.',
+        //         position: 'top-right',
+        //         loaderBg: '#ff6849',
+        //         icon: 'info',
+        //         hideAfter: 3500,
+        //         stack: 6
+        //     })
+        // });
+
+
+            // // Nestable
+            // var updateOutput = function(e) {
+            //     var list = e.length ? e : $(e.target),
+            //         output = list.data('output');
+            //     if (window.JSON) {
+            //         output.val(window.JSON.stringify(list.nestable('serialize'))); //, null, 2));
+            //     } else {
+            //         output.val('JSON browser support required for this demo.');
+            //     }
+            // };
+            //
+            // $('#myTable').nestable({
+            //     group: 1
+            // }).on('change', updateOutput);
+            //
+            // updateOutput($('#myTable').data('output', $('#nestable2-output')));
+            // $('#nestable-menu').on('click', function(e) {
+            //     var target = $(e.target),
+            //         action = target.data('action');
+            //     if (action === 'expand-all') {
+            //         $('.dd').nestable('expandAll');
+            //     }
+            //     if (action === 'collapse-all') {
+            //         $('.dd').nestable('collapseAll');
+            //     }
+            // });
+            // $('#nestable-menu').nestable();
+
+        let sparklineLogin = function() {
+            $('#sales2').sparkline([0, 10, 9, 11, 9, 10, 12, 10, 9, 11, 9, 10, 12, 6, 12], {
+                type: 'bar',
+                height: '154',
+                barWidth: '10',
+                resize: true,
+                barSpacing: '10',
+                barColor: '#f75b36'
+            });
+        };
+
+        let sparkResize;
+
+        $(window).resize(function(e) {
+            clearTimeout(sparkResize);
+            sparkResize = setTimeout(sparklineLogin, 100);
         });
 
-
-            // Nestable
-            var updateOutput = function(e) {
-                var list = e.length ? e : $(e.target),
-                    output = list.data('output');
-                if (window.JSON) {
-                    output.val(window.JSON.stringify(list.nestable('serialize'))); //, null, 2));
-                } else {
-                    output.val('JSON browser support required for this demo.');
-                }
-            };
-
-            $('#myTable').nestable({
-                group: 1
-            }).on('change', updateOutput);
-
-            updateOutput($('#myTable').data('output', $('#nestable2-output')));
-            $('#nestable-menu').on('click', function(e) {
-                var target = $(e.target),
-                    action = target.data('action');
-                if (action === 'expand-all') {
-                    $('.dd').nestable('expandAll');
-                }
-                if (action === 'collapse-all') {
-                    $('.dd').nestable('collapseAll');
-                }
-            });
-            $('#nestable-menu').nestable();
+        sparklineLogin();
 
     </script>
 @append
