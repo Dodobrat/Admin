@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <meta name="token" content="{{csrf_token()}}" />
     <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/add.css') }}">
     <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" >
     <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" disabled>
@@ -98,26 +99,26 @@
             <ul class="nav" id="side-menu">
                 <li class="hidden-sm hidden-md hidden-lg" style="width: 100vw;"></li>
                 <li class="nav-small-cap m-t-10">{{ trans('administration::admin.menu') }}</li>
-                {{--<li><a href="#" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i> <span class="hide-menu">Dashboard</span></a></li>--}}
-                {{--<li>--}}
-                    {{--<a class="waves-effect" href="javascript:void(0)">--}}
-                        {{--<i class="fa fa-user fa-fw"></i>--}}
-                        {{--<span class="hide-menu">Multi-Level Dropdown--}}
-                            {{--<span class="fa arrow"></span>--}}
-                        {{--</span>--}}
-                    {{--</a>--}}
-                    {{--<ul class="nav nav-second-level p-l-20">--}}
-                        {{--<li> <a href="/">Second Level Item</a> </li>--}}
-                        {{--<li> <a href="javascript:void(0)">Second Level Item</a> </li>--}}
-                        {{--<li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>--}}
-                            {{--<ul class="nav nav-third-level p-l-20">--}}
-                                {{--<li> <a href="javascript:void(0)">Third Level Item</a> </li>--}}
-                                {{--<li> <a href="javascript:void(0)">Third Level Item</a> </li>--}}
-                                {{--<li> <a href="javascript:void(0)">Third Level Item</a> </li>--}}
-                            {{--</ul>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
-                {{--</li>--}}
+                <li><a href="#" class="waves-effect"><i class="linea-icon linea-basic fa-fw" data-icon="v"></i> <span class="hide-menu">Dashboard</span></a></li>
+                <li>
+                    <a class="waves-effect" href="javascript:void(0)">
+                        <i class="fa fa-user fa-fw"></i>
+                        <span class="hide-menu">Multi-Level Dropdown
+                            <span class="fa arrow"></span>
+                        </span>
+                    </a>
+                    <ul class="nav nav-second-level p-l-20">
+                        <li> <a href="/">Second Level Item</a> </li>
+                        <li> <a href="javascript:void(0)">Second Level Item</a> </li>
+                        <li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level p-l-20">
+                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 <li class="nav-small-cap">--- Support</li>
                 <li><a href="{{ url('/docs') }}" class="waves-effect"><i class="fa fa-circle-o text-danger"></i> <span class="hide-menu">Documentation</span></a></li>
             </ul>
@@ -151,12 +152,12 @@
                                 <h5 class="m-b-20 font-normal text-muted">Current Language : <span class="flag-icon flag-icon-bg"></span> <span style="text-transform: uppercase;">bg</span></h5>
 
                                 <div class="dropdown lang-switch m-b-20">
-                                    <a href="javascript:void (0)"
+                                    <button href="javascript:void (0)"
                                        data-toggle="dropdown"
                                        role="button"
                                        aria-expanded="false">
                                         Change Language
-                                        <span class="caret pull-right vertical-middle"></span></a>
+                                        <span class="caret pull-right vertical-middle"></span></button>
                                     <ul class="dropdown-menu dropdown-lang">
                                         <li><a href=""><span class="flag-icon flag-icon-en"></span> {{ trans('administration::lang.en') }}</a></li>
                                         <li><a href=""><span class="flag-icon flag-icon-bg"></span> {{ trans('administration::lang.bg') }}</a></li>
