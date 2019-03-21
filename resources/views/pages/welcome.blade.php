@@ -156,8 +156,11 @@
     {{--</div>--}}
 
 
-    @include('components.dashboard.log-box')
-    @include('components.dashboard.link-box')
+    {{--@include('components.dashboard.log-box')--}}
+    {{--@include('components.dashboard.link-box')--}}
+    @include('components.media')
+    @include('components.media')
+    @include('components.media')
 
 @endsection
 

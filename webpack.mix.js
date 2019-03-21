@@ -18,8 +18,6 @@ mix.js([
         'resources/plugins/bower_components/bootstrap-select/bootstrap-select.min.js',
         'resources/plugins/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js',
         'resources/plugins/bower_components/multiselect/js/jquery.multi-select.js',
-        'resources/plugins/bower_components/dropify/dist/js/dropify.min.js',
-        'resources/plugins/bower_components/dropzone-master/dist/dropzone.js',
         'resources/plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.js',
         'resources/plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asColor.js',
         'resources/plugins/bower_components/jquery-asColorPicker-master/libs/jquery-asGradient.js',
@@ -27,6 +25,14 @@ mix.js([
         'resources/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js',
         'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.js',
     ], 'public/js/app.js')
+
+    .js([
+        'resources/plugins/bower_components/dropzone-master/dist/dropzone.js',
+    ],'public/js/drop.js')
+
+    .js([
+        'resources/js/charlotte.js',
+    ],'public/js/charlotte.js')
 
     .less('resources/less/dark/style.less', 'public/css/style-dark.css')
     .less('resources/less/colors/default-dark.less', 'public/css/default-dark.css')
@@ -43,7 +49,6 @@ mix.js([
         'resources/plugins/bower_components/bootstrap-select/bootstrap-select.min.css',
         'resources/plugins/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css',
         'resources/plugins/bower_components/multiselect/css/multi-select.css',
-        'resources/plugins/bower_components/dropify/dist/css/dropify.min.css',
         'resources/plugins/bower_components/dropzone-master/dist/dropzone.css',
         'resources/plugins/bower_components/clockpicker/dist/jquery-clockpicker.min.css',
         'resources/plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css',
