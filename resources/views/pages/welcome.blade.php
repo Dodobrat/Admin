@@ -181,17 +181,17 @@
             });
         });
 
-        // $(document).ready(function() {
-        //     $.toast({
-        //         heading: 'Welcome to Pixel admin',
-        //         text: 'Use the predefined ones, or specify a custom position object.',
-        //         position: 'top-right',
-        //         loaderBg: '#ff6849',
-        //         icon: 'info',
-        //         hideAfter: 3500,
-        //         stack: 6
-        //     })
-        // });
+        $(document).ready(function() {
+            $.toast({
+                heading: 'Welcome to Pixel admin',
+                text: 'Use the predefined ones, or specify a custom position object.',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'info',
+                hideAfter: 3500,
+                stack: 6
+            })
+        });
 
 
             // // Nestable

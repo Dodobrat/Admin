@@ -8,10 +8,10 @@
     <title>Document</title>
     <meta name="token" content="{{csrf_token()}}" />
     <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/add.css') }}">
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" >
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" disabled>
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-dark.css') }}" >
-    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-light.css') }}" disabled>
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-dark.css') }}" disabled>
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/style-light.css') }}" >
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-dark.css') }}" disabled>
+    <link rel="stylesheet" href="{{ asset(config('administration.file_prefix') . 'css/default-light.css') }}" >
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -224,6 +224,7 @@
 <script src="{{ asset(config('administration.file_prefix') . 'js/charts.js') }}"></script>
 <script src="{{ asset(config('administration.file_prefix') . 'js/editor.js') }}"></script>
 <script src="{{ asset(config('administration.file_prefix') . 'js/data-table.js') }}"></script>
+<script src="{{ asset(config('administration.file_prefix') . 'js/drop.js') }}"></script>
 
 <script>
     function startTime() {
