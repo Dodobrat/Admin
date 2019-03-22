@@ -1,166 +1,121 @@
 @extends('layouts.app')
 @section('content')
     {{--<link href="https://cdn.datatables.net/buttons/1.2.2/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css" />--}}
-    <div class="col-sm-12">
-        <div class="white-box">
-            <div class="table-responsive p-t-20 p-b-20 ">
-                <table id="myTable" class="table">
-                    <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Title</th>
-                        <th>Description</th>
-                        <th>Actions</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Ashton Cox</td>
-                        <td>Junior Technical Author</td>
-                        <td>San Francisco</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Airi Satou</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Tiger Nixon</td>
-                        <td>System Architect</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Garrett Winters</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Ashton Cox</td>
-                        <td>Junior Technical Author</td>
-                        <td>San Francisco</td>
-                        <td>
-
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Cedric Kelly</td>
-                        <td>Senior Javascript Developer</td>
-                        <td>Edinburgh</td>
-                        <td>
-                            <a class="m-l-10 m-r-10 action-btn" href="#">
-                                <i class="ti-exchange-vertical text-inverse"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    {{--<div class="col-md-4">--}}
+    {{--<div class="col-sm-12">--}}
         {{--<div class="white-box">--}}
-            {{--<h3 class="box-title">Nestable 2</h3>--}}
-            {{--<div class="myadmin-dd-empty dd" id="nestable2">--}}
+            {{--<div class="table-responsive p-t-20 p-b-20 ">--}}
+                {{--<table id="myTable" class="table">--}}
+                    {{--<thead>--}}
+                    {{--<tr>--}}
+                        {{--<th>ID</th>--}}
+                        {{--<th>Title</th>--}}
+                        {{--<th>Description</th>--}}
+                        {{--<th>Actions</th>--}}
+                    {{--</tr>--}}
+                    {{--</thead>--}}
+                    {{--<tbody>--}}
+                    {{--<tr>--}}
+                        {{--<td>Tiger Nixon</td>--}}
+                        {{--<td>System Architect</td>--}}
+                        {{--<td>Edinburgh</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Garrett Winters</td>--}}
+                        {{--<td>Accountant</td>--}}
+                        {{--<td>Tokyo</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Ashton Cox</td>--}}
+                        {{--<td>Junior Technical Author</td>--}}
+                        {{--<td>San Francisco</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Airi Satou</td>--}}
+                        {{--<td>Accountant</td>--}}
+                        {{--<td>Tokyo</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Tiger Nixon</td>--}}
+                        {{--<td>System Architect</td>--}}
+                        {{--<td>Edinburgh</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Garrett Winters</td>--}}
+                        {{--<td>Accountant</td>--}}
+                        {{--<td>Tokyo</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Ashton Cox</td>--}}
+                        {{--<td>Junior Technical Author</td>--}}
+                        {{--<td>San Francisco</td>--}}
+                        {{--<td>--}}
 
-                {{--<ol class="dd-list">--}}
-                    {{--<li class="dd-item dd3-item" data-id="13">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 13 </div>--}}
-                    {{--</li>--}}
-                    {{--<li class="dd-item dd3-item" data-id="14">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 14 </div>--}}
-                    {{--</li>--}}
-                    {{--<li class="dd-item dd3-item" data-id="14">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 16 </div>--}}
-                    {{--</li>--}}
-                    {{--<li class="dd-item dd3-item" data-id="14">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 17 </div>--}}
-                    {{--</li>--}}
-                    {{--<li class="dd-item dd3-item" data-id="14">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 18 </div>--}}
-                    {{--</li>--}}
-                    {{--<li class="dd-item dd3-item" data-id="14">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 19 </div>--}}
-                    {{--</li>--}}
-                    {{--<li class="dd-item dd3-item" data-id="15">--}}
-                        {{--<div class="dd-handle dd3-handle"></div>--}}
-                        {{--<div class="dd3-content"> Item 15 </div>--}}
-                        {{--<ol class="dd-list">--}}
-                            {{--<li class="dd-item dd3-item" data-id="16">--}}
-                                {{--<div class="dd-handle dd3-handle"></div>--}}
-                                {{--<div class="dd3-content"> Item 16 </div>--}}
-                            {{--</li>--}}
-                            {{--<li class="dd-item dd3-item" data-id="17">--}}
-                                {{--<div class="dd-handle dd3-handle"></div>--}}
-                                {{--<div class="dd3-content"> Item 17 </div>--}}
-                            {{--</li>--}}
-                            {{--<li class="dd-item dd3-item" data-id="18">--}}
-                                {{--<div class="dd-handle dd3-handle"></div>--}}
-                                {{--<div class="dd3-content"> Item 18 </div>--}}
-                            {{--</li>--}}
-                        {{--</ol>--}}
-                    {{--</li>--}}
-                {{--</ol>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--<tr>--}}
+                        {{--<td>Cedric Kelly</td>--}}
+                        {{--<td>Senior Javascript Developer</td>--}}
+                        {{--<td>Edinburgh</td>--}}
+                        {{--<td>--}}
+                            {{--<a class="m-l-10 m-r-10 action-btn" href="#">--}}
+                                {{--<i class="ti-exchange-vertical text-inverse"></i>--}}
+                            {{--</a>--}}
+                        {{--</td>--}}
+                    {{--</tr>--}}
+                    {{--</tbody>--}}
+                {{--</table>--}}
             {{--</div>--}}
         {{--</div>--}}
     {{--</div>--}}
+    <style>
+        #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+        #sortable li { margin: 0 3px 3px 3px; padding: 1em; font-size: 1.4em; }
+        #sortable li span { position: absolute; margin-left: -1.3em; }
+    </style>
 
-
-    {{--@include('components.dashboard.log-box')--}}
-    {{--@include('components.dashboard.link-box')--}}
-    @include('components.media')
-    @include('components.media')
-    @include('components.media')
+    <ul id="sortable">
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+        <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
 
 @endsection
 
@@ -193,54 +148,11 @@
             })
         });
 
+        $( function() {
+            $( "#sortable" ).sortable();
+            $( "#sortable" ).disableSelection();
+        } );
 
-            // // Nestable
-            // var updateOutput = function(e) {
-            //     var list = e.length ? e : $(e.target),
-            //         output = list.data('output');
-            //     if (window.JSON) {
-            //         output.val(window.JSON.stringify(list.nestable('serialize'))); //, null, 2));
-            //     } else {
-            //         output.val('JSON browser support required for this demo.');
-            //     }
-            // };
-            //
-            // $('#myTable').nestable({
-            //     group: 1
-            // }).on('change', updateOutput);
-            //
-            // updateOutput($('#myTable').data('output', $('#nestable2-output')));
-            // $('#nestable-menu').on('click', function(e) {
-            //     var target = $(e.target),
-            //         action = target.data('action');
-            //     if (action === 'expand-all') {
-            //         $('.dd').nestable('expandAll');
-            //     }
-            //     if (action === 'collapse-all') {
-            //         $('.dd').nestable('collapseAll');
-            //     }
-            // });
-            // $('#nestable-menu').nestable();
-
-        let sparklineLogin = function() {
-            $('#sales2').sparkline([0, 10, 9, 11, 9, 10, 12, 10, 9, 11, 9, 10, 12, 6, 12], {
-                type: 'bar',
-                height: '154',
-                barWidth: '10',
-                resize: true,
-                barSpacing: '10',
-                barColor: '#f75b36'
-            });
-        };
-
-        let sparkResize;
-
-        $(window).resize(function(e) {
-            clearTimeout(sparkResize);
-            sparkResize = setTimeout(sparklineLogin, 100);
-        });
-
-        sparklineLogin();
 
     </script>
 @append

@@ -4,7 +4,6 @@ mix.js([
         'resources/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js',
         'resources/plugins/bower_components/waypoints/lib/jquery.waypoints.js',
         'resources/plugins/bower_components/counterup/jquery.counterup.min.js',
-        'resources/plugins/bower_components/nestable/jquery.nestable.js',
         'resources/plugins/bower_components/sweetalert/sweetalert.min.js',
         'resources/plugins/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js',
         'resources/bootstrap/dist/js/bootstrap.min.js',
@@ -24,6 +23,8 @@ mix.js([
         'resources/plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js',
         'resources/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js',
         'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.js',
+        'resources/plugins/bower_components/dropify/dist/js/dropify.min.js',
+        'resources/plugins/bower_components/dropzone-master/dist/dropzone.js',
     ], 'public/js/app.js')
 
     .js([
@@ -43,7 +44,6 @@ mix.js([
         'resources/bootstrap/dist/css/bootstrap.min.css',
         'resources/plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css',
         'resources/plugins/bower_components/toast-master/css/jquery.toast.css',
-        'resources/plugins/bower_components/nestable/nestable.css',
         'resources/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css',
         'resources/plugins/bower_components/custom-select/custom-select.css',
         'resources/plugins/bower_components/bootstrap-select/bootstrap-select.min.css',
@@ -60,6 +60,7 @@ mix.js([
         'resources/plugins/bower_components/datatables/jquery.dataTables.min.css',
         'resources/plugins/bower_components/sweetalert/sweetalert.css',
         'resources/plugins/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css',
+        // 'resources/plugins/bower_components/jquery-ui-1.12.1/jquery-ui.min.css',
         'resources/css/animate.css',
         'resources/css/spinners.css',
         'resources/css/switches.css',
@@ -70,6 +71,7 @@ mix.js([
     .copy('resources/js/html5shiv.js', 'public/js/html5shiv.js', true)
     .copy('resources/js/respond.min.js', 'public/js/respond.min.js', true)
     .copy('resources/plugins/bower_components/jquery/dist/jquery.min.js', 'public/js/jquery.min.js', true)
+    .copy('resources/plugins/bower_components/jquery-ui-1.12.1/jquery-ui.min.js', 'public/js/jquery-ui.min.js', true)
     .copy('resources/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js', 'public/js/charts.js', true)
     .copy('resources/plugins/bower_components/flag-icon-css/flags', 'public/flags', true)
     .copy('resources/plugins/images', 'public/img', true)
