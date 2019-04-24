@@ -35,6 +35,10 @@ mix.js([
         'resources/js/charlotte.js',
     ],'public/js/charlotte.js')
 
+    .js([
+        'resources/js/chart.min.js',
+    ],'public/js/chart.js')
+
     .less('resources/less/dark/style.less', 'public/css/style-dark.css')
     .less('resources/less/colors/default-dark.less', 'public/css/default-dark.css')
     .less('resources/less/colors/default.less', 'public/css/default-light.css')

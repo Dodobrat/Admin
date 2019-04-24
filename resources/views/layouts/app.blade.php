@@ -226,6 +226,7 @@
 <script src="{{ asset(config('administration.file_prefix') . 'js/editor.js') }}"></script>
 <script src="{{ asset(config('administration.file_prefix') . 'js/data-table.js') }}"></script>
 <script src="{{ asset(config('administration.file_prefix') . 'js/drop.js') }}"></script>
+<script src="{{ asset(config('administration.file_prefix') . 'js/chart.js') }}"></script>
 
 <script>
     function startTime() {
