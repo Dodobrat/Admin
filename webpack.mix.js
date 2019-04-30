@@ -35,7 +35,9 @@ mix.js([
         'resources/js/charlotte.js',
     ],'public/js/charlotte.js')
 
-    .js([
+    .scripts([
+        'resources/js/moment.js',
+        'resources/js/moment-locales.js',
         'resources/js/chart.min.js',
     ],'public/js/chart.js')
 
