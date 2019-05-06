@@ -112,7 +112,7 @@
                         <li> <a href="javascript:void(0)">Second Level Item</a> </li>
                         <li> <a href="javascript:void(0)" class="waves-effect">Third Level <span class="fa arrow"></span></a>
                             <ul class="nav nav-third-level p-l-20">
-                                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                                <li class="active"> <a href="javascript:void(0)">Third Level Item</a> </li>
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
                                 <li> <a href="javascript:void(0)">Third Level Item</a> </li>
                             </ul>
@@ -168,24 +168,6 @@
 
 
                             <li><b>Layout Options</b></li>
-                            <li>
-                                <div class="row">
-                                    <div class="col-xs-4 text-center">
-                                        <p class="m-b-0 m-t-15">Dark</p>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <label class="switch-light switch-ios" style="width: 60px; margin: 0" onclick="">
-                                            <input type="checkbox">
-                                            <span>
-                                  <a></a>
-                                </span>
-                                        </label>
-                                    </div>
-                                    <div class="col-xs-4 text-center">
-                                        <p class="m-b-0 m-t-15">Light</p>
-                                    </div>
-                                </div>
-                            </li>
                             <li class="text-center">
                                 <h1 id="curr-time"></h1>
                             </li>
