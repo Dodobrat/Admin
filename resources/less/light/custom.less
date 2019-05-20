@@ -143,7 +143,15 @@ body.stop-scrolling {
         color: #54667a !important;
         text-transform: capitalize;
         font-size: 17px;
-
+        i{
+            height: 60px;
+            width: 60px;
+            display: inline-block !important;
+            text-align: left !important;
+            padding: 20px;
+            font-size: 20px;
+            margin: auto;
+        }
         b {
             font-size: 18px;
             text-transform: uppercase;
@@ -225,6 +233,7 @@ body.stop-scrolling {
 //datatable
 .table-responsive {
     border: none !important;
+    overflow-x: auto !important;
 }
 
 .table {
@@ -558,9 +567,6 @@ body.stop-scrolling {
 .dropzone .dz-preview .dz-remove:hover {
     text-decoration: none;
 }
-.dropzone .dz-message {
-    display: none;
-}
 .dt-rowReorder-float {
     display: none !important;
 }
@@ -583,7 +589,7 @@ body.dt-rowReorder-noOverflow {
 
 @media only screen and (min-width: 992px) {
     .table-responsive {
-        overflow-x: hidden;
+        overflow-x: auto !important;
     }
 }
 

@@ -33,9 +33,7 @@
             </a>
             <div class="top-left-part">
                 <a class="logo" href="">
-                    <b>
-                        AP
-                    </b>
+                    <i class="ti-panel text-muted"></i>
                     <span class="hidden-xs">
                         {{ config('app.name', 'Administration Panel') }}
                     </span>
