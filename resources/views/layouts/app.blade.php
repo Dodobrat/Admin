@@ -209,6 +209,9 @@
 <script src="{{ asset(config('administration.file_prefix') . 'js/chart.js') }}"></script>
 
 <script>
+
+    console.log(slugify('opalq brat az sum nai ludiq'));
+
     function startTime() {
         var today = new Date();
         var h = today.getHours();
