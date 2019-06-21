@@ -1524,16 +1524,17 @@ table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
 /*Summernote*/
 
 .note-editor {
-    border: 1px solid @border;
+    border: 1px solid @border !important;
     .panel-heading {
         padding: 6px 10px 10px;
     }
     .note-editing-area .note-editable {
-        background: @bodycolor;
-        color: @bodytext;
+        background: @bodycolor !important;
+        color: @bodytext !important;
     }
     .note-statusbar {
-        background: @bodycolor;
+        border-top: @bodycolor !important;
+        background: @bodycolor !important;
     }
 }
 

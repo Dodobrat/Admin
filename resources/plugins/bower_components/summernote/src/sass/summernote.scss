@@ -74,7 +74,7 @@ $background-color: #f5f5f5 !default;
     width: 100%;
     z-index: 1050; /* bs3 modal-backdrop: 1030, bs2: 1040 */
     .note-editable {
-      background-color: white;
+      background-color: transparent;
     }
     .note-resizebar {
       display: none;
