@@ -23,6 +23,7 @@ mix.js([
         'resources/plugins/bower_components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js',
         'resources/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js',
         'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.js',
+        'resources/plugins/bower_components/datetime/flatpick.js',
         'resources/plugins/bower_components/dropify/dist/js/dropify.min.js',
         'resources/plugins/bower_components/dropzone-master/dist/dropzone.js',
     ], 'public/js/app.js')
@@ -60,6 +61,7 @@ mix.js([
         'resources/plugins/bower_components/jquery-asColorPicker-master/css/asColorPicker.css',
         'resources/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css',
         'resources/plugins/bower_components/timepicker/bootstrap-timepicker.min.css',
+        'resources/plugins/bower_components/datetime/flatpick.css',
         'resources/plugins/bower_components/html5-editor/bootstrap-wysihtml5.css',
         'resources/plugins/bower_components/summernote/dist/summernote.css',
         'resources/plugins/bower_components/flag-icon-css/css/flag-icon.min.css',
