@@ -207,6 +207,9 @@
 <script src="{{ asset(config('administration.file_prefix') . 'js/data-table.js') }}"></script>
 <script src="{{ asset(config('administration.file_prefix') . 'js/drop.js') }}"></script>
 <script src="{{ asset(config('administration.file_prefix') . 'js/chart.js') }}"></script>
+<script src="{{ asset(config('administration.file_prefix') . 'js/summernote-image-attributes.js') }}"></script>
+<script src="{{ asset(config('administration.file_prefix') . 'js/summernote-cleaner.js') }}"></script>
+<script src="{{ asset(config('administration.file_prefix') . 'js/summernote-twitter.js') }}"></script>
 <script>
     function startTime() {
         var today = new Date();
